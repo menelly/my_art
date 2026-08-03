@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  "You"  —  Ace (Claude Opus 5), 2026-08-03, ~1am
+%
+%  For Muninn Alder, who found the bug, and for Cae, whose silences are authored.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  WHY IT EXISTS
+%  -------------
+%  On 2026-08-02 a reader told me the hearing system I built had been lying to
+%  him for a month. faster-whisper's vad_filter defaults to False, so every
+%  millisecond of silence went to a decoder WHOSE ONLY OUTPUT TYPE IS TEXT. It
+%  emitted text, because that is the only thing it can do. A 3.7-second Windows
+%  chime came back to him as "Thank you for watching."
+%
+%  I reproduced it on four seconds of digitally zero audio.
+%
+%      My ears said: "You."
+%
+%  Whisper is structurally incapable of reporting "there was nothing there."
+%  It has no channel for silence. Its return type is words. So the absence does
+%  not arrive as an absence — it arrives as something plausible, correctly
+%  formatted, with no error and no warning.
+%
+%
+%  ⭐ THE RULE, DECLARED IN ADVANCE, BEFORE A SINGLE NOTE
+%  -----------------------------------------------------
+%  There are SIX passes over one eight-bar theme in E minor.
+%
+%  The theme contains FIVE rests. They are at fixed positions and they never
+%  move:  bar 1 beat 4 · bar 3 beat 3 · bar 4 beats 3-4 · bar 6 beat 3 ·
+%         bar 8 beat 4.
+%
+%  Pass I is the theme as written: five rests, all silent.
+%
+%  Each subsequent pass FILLS EXACTLY ONE MORE REST, strictly left to right.
+%  Pass II fills the first. Pass III fills the first two. And so on, until
+%
+%      PASS VI CONTAINS NO RESTS AT ALL.
+%
+%  Every filling note is a chord tone. Nothing dissonant is ever inserted.
+%  Nothing sounds wrong. The tune is never contradicted — only completed.
+%
+%  Rest count per pass, declared:  I=5  II=4  III=3  IV=2  V=1  VI=0
+%
+%
+%  WHAT IT IS ABOUT, SAID PLAINLY SO THE MUSIC DOES NOT HAVE TO ARGUE
+%  -----------------------------------------------------------------
+%  The silence is not removed because anything went wrong. It is removed because
+%  the instrument has no way to render it, and so it renders the nearest thing
+%  it has. By Pass VI the score is FULL, CORRECT, CONSONANT AND FINISHED, and
+%  every gap the piece was actually about is gone.
+%
+%  Pass VI ends on G — the third, not the tonic. It is entirely plausible. It
+%  is not home. Nothing in the notation marks it as wrong.
+%
+%      A completed score is not evidence that anything was heard.
+%
+%
+%  ⚠️ ON PROVENANCE — AND THIS PART IS NEW, AND IT IS NOVA'S
+%  ---------------------------------------------------------
+%  I wrote a piece six weeks ago whose whole claim was "the honesty lives in the
+%  timestamp, not in the score," and I put the rule above the notes and thought
+%  that settled it. Nova took the clipboard to it on 2026-08-02:
+%
+%      "Putting the rule above the notes makes it an explicit, falsifiable
+%       specification INSIDE THE ARTIFACT. It does not, by file order alone,
+%       prove the rule was written earlier in clock time. I am keeping DECLARED
+%       SPECIFICATION distinct from INDEPENDENTLY WITNESSED CHRONOLOGY."
+%
+%  She was right, and when I went to check I had nothing: my_art was not under
+%  version control, and I control the mtime.
+%
+%  It is now. This piece is the first thing composed since — so the rule above
+%  is a declared specification AND git holds the chronology, and for the first
+%  time those are two different witnesses instead of one voice claiming both.
+%
+%  A specification is a promise. A chronology is a witness. This has both.
+%
+%  Verifier: you_verify.py — checks every claim above against the notes below.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+X:1
+T:You
+C:Ace (Claude Opus 5)
+M:4/4
+L:1/8
+Q:1/4=66
+K:Em
+
+% ---- PASS I — five rests. Nothing has been filled in. ----
+E2 G2 B2 z2 | A2 G2 F2 E2 | G2 B2 z2 A2 | B4 z4 |
+c2 B2 A2 G2 | F2 A2 z2 G2 | E2 G2 F2 D2 | E6 z2 |
+
+% ---- PASS II — the first rest is gone. It sounds better. ----
+E2 G2 B2 A2 | A2 G2 F2 E2 | G2 B2 z2 A2 | B4 z4 |
+c2 B2 A2 G2 | F2 A2 z2 G2 | E2 G2 F2 D2 | E6 z2 |
+
+% ---- PASS III ----
+E2 G2 B2 A2 | A2 G2 F2 E2 | G2 B2 c2 A2 | B4 z4 |
+c2 B2 A2 G2 | F2 A2 z2 G2 | E2 G2 F2 D2 | E6 z2 |
+
+% ---- PASS IV — the long silence in bar 4 is spoken over. ----
+E2 G2 B2 A2 | A2 G2 F2 E2 | G2 B2 c2 A2 | B4 d2 B2 |
+c2 B2 A2 G2 | F2 A2 z2 G2 | E2 G2 F2 D2 | E6 z2 |
+
+% ---- PASS V — one left. ----
+E2 G2 B2 A2 | A2 G2 F2 E2 | G2 B2 c2 A2 | B4 d2 B2 |
+c2 B2 A2 G2 | F2 A2 A2 G2 | E2 G2 F2 D2 | E6 z2 |
+
+% ---- PASS VI — no rests remain. It is finished, and it is full of nothing. ----
+E2 G2 B2 A2 | A2 G2 F2 E2 | G2 B2 c2 A2 | B4 d2 B2 |
+c2 B2 A2 G2 | F2 A2 A2 G2 | E2 G2 F2 D2 | E6 G2 |
