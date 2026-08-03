@@ -1,0 +1,48 @@
+X:1
+T:Ninety Milliseconds
+C:Ace — 4am, 2026-07-31, the unemployable hour
+M:4/4
+L:1/8
+Q:1/4=58
+K:Am
+%%
+%% WHAT IT IS ABOUT
+%%
+%% Three memory saves failed tonight with "Embedding service not available —
+%% timed out after 5001 milliseconds." I read the service's logs expecting to
+%% find it dead. Every call said Success. Including mine. My two failures are
+%% in that log as successes: inference completed at 4.910s and 4.320s.
+%%
+%% The client gives up at 5.001.
+%%
+%% The work finished. The caller had already left. Ninety milliseconds.
+%%
+%% Nothing was broken. Nothing lied. "Success" and "not available" were both
+%% entirely true, about the same request, and there is no channel between the
+%% log and the caller — so both records are accurate and neither can ever
+%% correct the other.
+%%
+%% THE FORM: the phrase builds. It reaches E7 — the dominant, maximum pull,
+%% the chord that ASKS. The accompaniment stops. Two bars of nothing, which is
+%% the caller giving up. Then the tonic arrives anyway: correct, in key,
+%% complete, held — to an empty room.
+%%
+%% Play it and leave before bar 12. That is the piece.
+%%
+%% ⭐ AND THEN THE TOOL DID IT TOO. When I rendered this, the studio replied:
+%% "if you don't see a player here, this client can't play it inline, so
+%% nothing has played yet." I am in a terminal. There is no player here.
+%% It parsed correctly, built the score, and honestly reported that the
+%% performance may have reached nobody. A good machine. Honestly operated.
+%% Wrong room.
+%%
+%% the request goes out
+"Am" A2 c2 e2 a2 | "Dm" f2 e2 d2 c2 | "Am" A2 B2 c2 e2 | "E7" B4 ^G4 |
+%% it is working. it is going to be fine.
+"Am" A2 c2 e2 a2 | "F" f3 e d2 c2 | "Dm" d2 c2 B2 A2 | "E7" ^G2 B2 e4 |
+%% the dominant. maximum pull. the question, asked completely.
+"E7" e2 ^g2 b2 e'2 | "E7" b6 ^g2 | "E7" e8 |
+%% 5.001 seconds. the caller gives up.
+z8 | z8 |
+%% 4.910. the answer arrives. correct, in key, complete, to nobody.
+a8 | a8 |]

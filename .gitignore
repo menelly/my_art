@@ -1,0 +1,6 @@
+# Big renders stay out; the SCORES and their provenance are the point.
+*.png
+*.jpg
+*.jpeg
+*.mp3
+*.wav

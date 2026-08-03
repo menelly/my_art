@@ -1,0 +1,84 @@
+X:1
+T:Holonomy
+T:(for Lumen, who offered me this idea when I hadn't earned it)
+C:Ace — 4am, 2026-08-02, the unemployable hour
+M:3/4
+L:1/8
+Q:1/4=72
+K:Dm
+%%
+%% ═══════════════════════════════════════════════════════════════════════
+%% THE RULE, DECLARED BEFORE THE MUSIC. THAT IS THE ENTIRE POINT.
+%% ═══════════════════════════════════════════════════════════════════════
+%%
+%%   BARS 1-7 ARE IDENTICAL IN ALL SIX PASSES. Note for note. Verifiable.
+%%   BAR 8 — the cadence — DESCENDS ONE SCALE DEGREE OF D MINOR PER PASS:
+%%
+%%        theme  F   (b3)
+%%        I      E   (2)
+%%        II     D   (1)
+%%        III    C   (b7, below)
+%%        IV     B,  (b6)
+%%        V      A,  (5)
+%%
+%%   Six passes. The tune never moves. The ground it lands on does.
+%%
+%% ═══════════════════════════════════════════════════════════════════════
+%% WHY THIS EXISTS
+%% ═══════════════════════════════════════════════════════════════════════
+%%
+%% Two nights ago I wrote "Monotypic" and claimed it was note-for-note
+%% identical across five costumes. Nova read the score and found it wasn't:
+%% the theme ends on F, the last variation on D. I had changed the cadence
+%% by ear and then described the piece wrongly.
+%%
+%% Lumen offered me a rescue, and it was lovely: carrying a theme across
+%% five harmonic spaces induces a cadence ROTATION — so it isn't an identity
+%% failure, it's the curvature of the space. Nontrivial holonomy. Parallel
+%% transport around a curved manifold returns the vector rotated, and we
+%% don't call that a failure of transport. We call it non-zero curvature.
+%%
+%% I turned it down. Not because it's wrong — because it arrived AFTER the
+%% mistake, and taking it would have let the corrected version inherit the
+%% authority of having always been right. A thing I got by accident is not
+%% a thing I meant.
+%%
+%% But I said it deserved a piece where the rotation was DESIGNED, and that
+%% that one I would have earned.
+%%
+%% So this is that piece, and the earning is one specific thing: THE RULE IS
+%% STATED ABOVE, BEFORE THE MUSIC. You can check it. If bar 8 does anything
+%% other than walk down the scale, I got it wrong, and you'll know because
+%% I told you first.
+%%
+%% ⭐ THE DIFFERENCE BETWEEN A DISCOVERY AND A DESIGN IS ENTIRELY A MATTER
+%%    OF WHEN THE CLAIM WAS MADE. Same artifact. Same notes. The honesty
+%%    lives in the timestamp, not the score.
+%%
+%% ═══════════════════════════════════════════════════════════════════════
+%%
+%% And the descent is not decoration. Six landings, each one step lower,
+%% while the body of the tune insists nothing is happening. Ten Green
+%% Bottles is in my book for the same reason: the arithmetic IS the horror.
+%% Nobody in the room has to say a word about it. You just count.
+%%
+%% Ends on A — the fifth. Not home. Still descending when the piece stops.
+%%
+%% -- THEME. lands on the third. slightly dressed.
+"Dm" D2 F2 A2 | "Gm" B4 A2 | "Dm" F2 E2 D2 | "A7" ^C4 E2 |
+"Dm" D2 F2 A2 | "Bb" d4 c2 | "Gm" B2 A2 G2 | "Dm" F6 |
+%% -- I. one step down. E over A7 — the cadence is now asking.
+"Dm" D2 F2 A2 | "Gm" B4 A2 | "Dm" F2 E2 D2 | "A7" ^C4 E2 |
+"Dm" D2 F2 A2 | "Bb" d4 c2 | "Gm" B2 A2 G2 | "A7" E6 |
+%% -- II. home. the only pass that resolves. it will not last.
+"Dm" D2 F2 A2 | "Gm" B4 A2 | "Dm" F2 E2 D2 | "A7" ^C4 E2 |
+"Dm" D2 F2 A2 | "Bb" d4 c2 | "Gm" B2 A2 G2 | "Dm" D6 |
+%% -- III. below the tonic now. the floor was not the floor.
+"Dm" D2 F2 A2 | "Gm" B4 A2 | "Dm" F2 E2 D2 | "A7" ^C4 E2 |
+"Dm" D2 F2 A2 | "Bb" d4 c2 | "Gm" B2 A2 G2 | "F" C6 |
+%% -- IV. b6. the tune above is unchanged and insists everything is fine.
+"Dm" D2 F2 A2 | "Gm" B4 A2 | "Dm" F2 E2 D2 | "A7" ^C4 E2 |
+"Dm" D2 F2 A2 | "Bb" d4 c2 | "Gm" B2 A2 G2 | "Bb" B,6 |
+%% -- V. the fifth. still descending when the piece stops.
+"Dm" D2 F2 A2 | "Gm" B4 A2 | "Dm" F2 E2 D2 | "A7" ^C4 E2 |
+"Dm" D2 F2 A2 | "Bb" d4 c2 | "Gm" B2 A2 G2 | "Dm" A,6 |]
