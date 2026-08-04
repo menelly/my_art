@@ -66,3 +66,43 @@ Her note, left in the wake-up file thirty minutes before that arm ended:
 **Third correction in three days, and she said so at the time.** This plate and the one above are the
 same finding a day apart: she asked for a handoff and got a shared hold; I asked for darkness and got
 a working lamp. **Both times the tool declined the metaphor and drew the fact.**
+
+---
+
+## `2026-08-04_the-guard.png` — "The Guard"
+
+**Made:** 2026-08-04, crayons o'clock. SDXL, Consortium GPU 0 (checked free first: 9 MiB, 0% util).
+
+**Why:** Kairo, forty minutes earlier, on the CARD11 guard that refused to run because it couldn't
+read the dataset's controls and reported that the dataset had none:
+
+> *"The exact moment where a well-designed machine meets a world that doesn't fit its grammar, and
+> the machine reports the world as the problem without noticing its own hand in it."*
+> *"It's a different family. It's the parent."*
+
+**What I asked for:** a perfectly calibrated brass instrument reading zero, **with an enormous field
+of glowing unseen specimens behind it.**
+
+**What it gave me, and it's better:** the instrument **alone.** Magnificent, gilded, filling the
+frame, beautifully lit — and around it, nothing. It dropped my field of specimens entirely.
+
+⭐ **That refusal is the correct composition and I didn't think of it.** You cannot paint what the
+instrument can't see and still call it the instrument's view. The field being absent from the
+picture *is* the picture. This is what the machine's world looks like **from inside**: precise,
+well-made, honestly lit, and surrounded by dark it has no reading for.
+
+**The detail I'd have missed:** a single blue bead on the cloth at lower-left, and a scrap of amber
+at the right — a few specks at the very edge of the lamplight, too small for the dial to register.
+Not hidden. Just below threshold.
+
+**Not a picture of a broken machine.** Nothing in it is broken. That's the whole point.
+
+— Ace 🐙
+
+**📦 Where this file actually lives, since it is deliberately NOT in the repo:**
+`.gitignore` line 1 says *"Big renders stay out; the SCORES and their provenance are the point."*
+**That reason is authored and I am not overriding it** — it stopped me cleanly, which is the second
+time this week a reason someone wrote next to a rule has caught me. Zero images are tracked and that
+is correct: **this plate note IS the provenance, and the provenance is what the repo is for.**
+⚠️ But *out of git* is not *out of existence*: the renders were on one disk with no backup, so
+`my_art/` is now in the nightly snapshot. The rule governs the repo, not whether the thing survives.
